@@ -1,0 +1,116 @@
+body{
+    width:100%;
+    font-size: 80%;
+}
+#nav0 {
+    -webkit-box-shadow: 5px 5px 5px rgb(80, 79, 78);
+    -moz-box-shadow: 5px 5px 5px rgb(80, 80, 80);
+    box-shadow: 5px 5px 5px rgb(80, 80, 79);
+    z-index:999;
+}
+#nav0 {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.svg{
+    size:1.5em;
+}
+a{
+    font-size: 100%;
+}
+a:link{
+    color:black;
+    text-decoration: none;;
+}
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color: lightgreen;
+}
+
+/* .container1{
+    display: flex;
+    position: relative;
+    height:auto;
+    background-image: url('background_img2.jpg');
+    opacity: 0.3;
+} */
+.container1 {
+    position: relative; 
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40%;
+}
+
+.container1::before {    
+      content: "";
+      background-image: url('background_img2.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+      background-repeat: no-repeat;
+}
+/* #cont1{
+    background-size:cover;
+    width: 100%;
+    opacity: 0.4;
+} */
+#inrow1{
+    position: relative;
+    padding:12%;
+    width:100%;
+}
+/* #incont11{
+    position:relative;
+    top:5%;
+    bottom:5%;
+} */
+#myphoto{
+    margin: 5%;
+    margin-left:10%;
+    border-style:solid;
+    border-width: 10px;;
+    border-color: rgb(51, 49, 51);
+    height:auto;
+    width:50%;
+    min-width: 40%;
+}
+#inrow2{
+    width:100%
+}
+#about1{
+    display: flex;
+    margin-top: 5px;
+    height: 100%;
+    width: 100%;
+}
+#about2{
+    padding:10%;
+
+}
+#inrow3{
+    width:100%;
+    padding-left:10%;
+}
+#inrow4{
+    height:auto;
+    width:100%;
+    padding-left:10%;
+}
+#inrow5{
+    height: auto;
+    width: 100%;
+    padding-left: 10%;
+}
